@@ -1,0 +1,87 @@
+
+.menuBar{
+  padding: 0 20px;
+  border-bottom: solid 1px #e8e8e8;
+  overflow: auto;
+  box-shadow: 0 0 30px #f3f1f1;
+}
+.logo{
+  width: 150px;
+  float: left;
+}
+.logo a{
+  display: inline-block;
+  font-size: 20px;
+  padding: 19px 20px;
+  text-transform: capitalize;
+}
+
+.navElement div{
+  padding: 19px 20px;
+  display: inline-block;
+}
+.navElementMenu div{
+  padding-top: 10px;
+}
+
+.barsMenu{
+  float: right;
+  height: 32px;
+  padding: 6px;
+  margin-top: 8px;
+  display: none;
+  background: none;
+}
+.barsBtn{
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #1890ff;
+  top:-4px;
+  position: relative;
+}
+.barsBtn:after,.barsBtn:before{
+  content: attr(x);
+  width: 20px;
+  position: absolute;
+  top: -6px;
+  left: 0;
+  height: 2px;
+  background: #1890ff;
+}
+.barsBtn:after{
+  top: auto;
+  bottom: -6px;
+}
+.oauthOption .textFb{
+  font-size: 15;
+  color: #3b579d;
+}
+
+.oauthOption .textGm{
+  font-size: 15;
+  color: #b93425;
+}
+
+.oauthOption{
+  border: 1px solid #dedfe0;
+  box-shadow: 0 2px 2px 0 rgba(41,48,59,.24),0 0 2px 0 rgba(41,48,59,.12);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 15px;
+}
+@media(max-width: 1000px){
+  .barsMenu{
+    display: inline-block;
+  }
+  .logo a{
+    margin-left: -20px;
+  }
+  .logo a{
+    padding: 10px 20px;
+  }
+  .navElement, .navElementMenu{
+    display: none;
+  }
+}

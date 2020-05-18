@@ -1,0 +1,21 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  /* Top left text */
+  .textAndSearchBar {
+    position: absolute;
+    top: 40%;
+    left: 170px;
+  }
+
+  .textAndSearchBar h1{
+      color: white;
+      font-weight: bold;
+  }
+  .textAndSearchBar p{
+      text-align: left;
+  }

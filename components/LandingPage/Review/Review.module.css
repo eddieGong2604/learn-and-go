@@ -1,0 +1,13 @@
+.review {
+    text-align: center;
+    margin-top: 20px;
+}
+.review h2{
+    color: #1890ff;
+    font-weight: 600;
+}
+.reviewList{
+    width: 80%;
+    display: inline-block;
+    margin-top: 25px;
+}

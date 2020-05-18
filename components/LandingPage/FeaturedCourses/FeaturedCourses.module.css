@@ -1,0 +1,12 @@
+.featureCourses {
+    text-align: center;
+    margin-top: 20px;
+}
+.featureCourses h2{
+    color: #1890ff;
+    font-weight: 600;
+}
+.tabs{
+    width: 80%;
+    display: inline-block;
+}
